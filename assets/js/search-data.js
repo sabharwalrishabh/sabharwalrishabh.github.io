@@ -418,14 +418,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-paper-accepted-at-ieee-transactions-on-artificial-intelligence-to-appear",
-          title: 'Paper accepted at IEEE Transactions on Artificial Intelligence (to appear).',
-          description: "",
-          section: "News",},{id: "news-completed-my-predoctoral-research-role-at-iisc-bengaluru-vista-lab",
+            },},{id: "news-completed-my-predoctoral-research-role-at-iisc-bengaluru-vista-lab",
           title: 'Completed my Predoctoral Research role at IISc Bengaluru (VISTA Lab).',
           description: "",
           section: "News",},{id: "news-started-my-msc-in-artificial-intelligence-at-the-university-of-edinburgh",
           title: 'Started my MSc in Artificial Intelligence at the University of Edinburgh.',
+          description: "",
+          section: "News",},{id: "news-paper-accepted-at-ieee-transactions-on-artificial-intelligence",
+          title: 'Paper accepted at IEEE Transactions on Artificial Intelligence.',
           description: "",
           section: "News",},{id: "projects-fastapi-safety-gateway",
           title: 'FastAPI Safety Gateway',
