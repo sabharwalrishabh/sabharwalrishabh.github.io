@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
+  },{id: "nav-about",
+          title: "about",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -25,31 +25,31 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Selected projects (systems, datasets, and competitions).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+        },{id: "nav-courses",
+          title: "courses",
+          description: "Coursework and topics covered during my MSc (AI) at the University of Edinburgh.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/courses/";
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Downloadable CV and a structured overview.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/blog/";
           },
         },{id: "nav-people",
           title: "people",
@@ -72,363 +72,341 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-",
         
-          title: "a post with plotly.js",
+          title: "",
         
-        description: "this is what included plotly.js code could look like",
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2024-12-04-photo-gallery/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2024-01-27-code-diff/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2018-12-22-distill/";
+          
+        },
+      },{id: "post-plotly",
+        
+          title: "Plotly",
+        
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2025/plotly/";
           
         },
-      },{id: "post-a-post-with-image-galleries",
+      },{id: "post-tabs",
         
-          title: "a post with image galleries",
+          title: "Tabs",
         
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/tabs/";
           
         },
-      },{id: "post-a-post-with-typograms",
+      },{id: "post-typograms",
         
-          title: "a post with typograms",
+          title: "Typograms",
         
-        description: "this is what included typograms code could look like",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/typograms/";
           
         },
-      },{id: "post-a-post-that-can-be-cited",
+      },{id: "post-post-citation",
         
-          title: "a post that can be cited",
+          title: "Post Citation",
         
-        description: "this is what a post that can be cited looks like",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/post-citation/";
           
         },
-      },{id: "post-a-post-with-pseudo-code",
+      },{id: "post-pseudocode",
         
-          title: "a post with pseudo code",
+          title: "Pseudocode",
         
-        description: "this is what included pseudo code could look like",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/pseudocode/";
           
         },
-      },{id: "post-a-post-with-code-diff",
+      },{id: "post-vega-lite",
         
-          title: "a post with code diff",
+          title: "Vega Lite",
         
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/vega-lite/";
           
         },
-      },{id: "post-a-post-with-geojson",
+      },{id: "post-advanced-images",
         
-          title: "a post with geojson",
+          title: "Advanced Images",
         
-        description: "this is what included geojson code could look like",
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/advanced-images/";
+          
+        },
+      },{id: "post-geojson-map",
+        
+          title: "Geojson Map",
+        
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/geojson-map/";
           
         },
-      },{id: "post-a-post-with-echarts",
+      },{id: "post-echarts",
         
-          title: "a post with echarts",
+          title: "Echarts",
         
-        description: "this is what included echarts code could look like",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/echarts/";
           
         },
-      },{id: "post-a-post-with-chart-js",
+      },{id: "post-chartjs",
         
-          title: "a post with chart.js",
+          title: "Chartjs",
         
-        description: "this is what included chart.js code could look like",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/chartjs/";
           
         },
-      },{id: "post-a-post-with-tikzjax",
+      },{id: "post-tikzjax",
         
-          title: "a post with TikZJax",
+          title: "Tikzjax",
         
-        description: "this is what included TikZ code could look like",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2023/tikzjax/";
           
         },
-      },{id: "post-a-post-with-bibliography",
+      },{id: "post-post-bibliography",
         
-          title: "a post with bibliography",
+          title: "Post Bibliography",
         
-        description: "an example of a blog post with bibliography",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2023/post-bibliography/";
           
         },
-      },{id: "post-a-post-with-jupyter-notebook",
+      },{id: "post-jupyter-notebook",
         
-          title: "a post with jupyter notebook",
+          title: "Jupyter Notebook",
         
-        description: "an example of a blog post with jupyter notebook",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2023/jupyter-notebook/";
           
         },
-      },{id: "post-a-post-with-custom-blockquotes",
+      },{id: "post-custom-blockquotes",
         
-          title: "a post with custom blockquotes",
+          title: "Custom Blockquotes",
         
-        description: "an example of a blog post with custom blockquotes",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2023/custom-blockquotes/";
           
         },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
+      },{id: "post-sidebar-table-of-contents",
         
-          title: "a post with table of contents on a sidebar",
+          title: "Sidebar Table Of Contents",
         
-        description: "an example of a blog post with table of contents on a sidebar",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2023/sidebar-table-of-contents/";
           
         },
-      },{id: "post-a-post-with-audios",
+      },{id: "post-audios",
         
-          title: "a post with audios",
+          title: "Audios",
         
-        description: "this is what included audios could look like",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2023/audios/";
           
         },
-      },{id: "post-a-post-with-videos",
+      },{id: "post-videos",
         
-          title: "a post with videos",
+          title: "Videos",
         
-        description: "this is what included videos could look like",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2023/videos/";
           
         },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
+      },{id: "post-tables",
         
-          title: "displaying beautiful tables with Bootstrap Tables",
+          title: "Tables",
         
-        description: "an example of how to use Bootstrap Tables",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2023/tables/";
           
         },
-      },{id: "post-a-post-with-table-of-contents",
+      },{id: "post-table-of-contents",
         
-          title: "a post with table of contents",
+          title: "Table Of Contents",
         
-        description: "an example of a blog post with table of contents",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2023/table-of-contents/";
           
         },
-      },{id: "post-a-post-with-giscus-comments",
+      },{id: "post-giscus-comments",
         
-          title: "a post with giscus comments",
+          title: "Giscus Comments",
         
-        description: "an example of a blog post with giscus comments",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2022/giscus-comments/";
           
         },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
+      },{id: "post-redirect",
         
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: "Redirect",
         
         description: "",
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
+            window.location.href = "/blog/2022/redirect/";
           
         },
-      },{id: "post-a-post-with-redirect",
+      },{id: "post-diagrams",
         
-          title: "a post with redirect",
+          title: "Diagrams",
         
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2021/diagrams/";
           
         },
-      },{id: "post-a-distill-style-blog-post",
+      },{id: "post-twitter",
         
-          title: "a distill-style blog post",
+          title: "Twitter",
         
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2020/twitter/";
           
         },
-      },{id: "post-a-post-with-disqus-comments",
+      },{id: "post-math",
         
-          title: "a post with disqus comments",
+          title: "Math",
         
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2015/math/";
           
         },
-      },{id: "post-a-post-with-code",
+      },{id: "post-disqus-comments",
         
-          title: "a post with code",
+          title: "Disqus Comments",
         
-        description: "an example of a blog post with some code",
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/disqus-comments/";
+          
+        },
+      },{id: "post-code",
+        
+          title: "Code",
+        
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2015/code/";
           
         },
-      },{id: "post-a-post-with-images",
+      },{id: "post-images",
         
-          title: "a post with images",
+          title: "Images",
         
-        description: "this is what included images could look like",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2015/images/";
           
         },
-      },{id: "post-a-post-with-formatting-and-links",
+      },{id: "post-formatting-and-links",
         
-          title: "a post with formatting and links",
+          title: "Formatting And Links",
         
-        description: "march &amp; april, looking forward to summer",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -440,60 +418,73 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-paper-accepted-at-ieee-transactions-on-artificial-intelligence-to-appear",
+          title: 'Paper accepted at IEEE Transactions on Artificial Intelligence (to appear).',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-completed-my-predoctoral-research-role-at-iisc-bengaluru-vista-lab",
+          title: 'Completed my predoctoral research role at IISc Bengaluru (VISTA Lab).',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-started-my-msc-in-artificial-intelligence-at-the-university-of-edinburgh",
+          title: 'Started my MSc in Artificial Intelligence at the University of Edinburgh.',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-fastapi-safety-gateway",
+          title: 'FastAPI Safety Gateway',
+          description: "Guardrails + agentic safety loop for a vLLM-served Llama-3.1-8B-Instruct.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_fastapi_safety_gateway/";
+            },},{id: "projects-1-project",
+          title: '1_project',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-2-project",
+          title: '2_project',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-video-humor-reasoning-indic-smile",
+          title: 'Video Humor Reasoning (Indic-SMILE)',
+          description: "Dataset + benchmarking for culturally grounded humor reasoning in Indian video contexts.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_video_humor_reasoning/";
+            },},{id: "projects-deepfake-image-detection-challenge",
+          title: 'Deepfake Image Detection Challenge',
+          description: "Led data + model evaluation for an open-source deepfake detection effort (Omdena); ranked 3rd.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_deepfake_detection/";
+            },},{id: "projects-3-project",
+          title: '3_project',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-4-project",
+          title: '4_project',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-5-project",
+          title: '5_project',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-6-project",
+          title: '6_project',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-7-project",
+          title: '7_project',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-8-project",
+          title: '8_project',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+            },},{id: "projects-9-project",
+          title: '9_project',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{id: "teachings-data-science-fundamentals",
@@ -511,21 +502,35 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/Rishabh_Sabharwal_Resume.pdf", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%52.%53%61%62%68%61%72%77%61%6C@%73%6D%73.%65%64.%61%63.%75%6B", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/sabharwalrishabh", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/sabharwalrishabh", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=FGGJcEUAAAAJ", "_blank");
         },
       },{
         id: 'social-rss',
@@ -533,20 +538,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
