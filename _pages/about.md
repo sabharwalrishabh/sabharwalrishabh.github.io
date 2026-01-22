@@ -9,7 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Tower Bridge</p>
     <p>London, UK</p>
 
 nav: true
