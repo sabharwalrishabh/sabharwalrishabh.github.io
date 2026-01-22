@@ -422,7 +422,7 @@ ninja.data = [{
           title: 'Paper accepted at IEEE Transactions on Artificial Intelligence (to appear).',
           description: "",
           section: "News",},{id: "news-completed-my-predoctoral-research-role-at-iisc-bengaluru-vista-lab",
-          title: 'Completed my predoctoral research role at IISc Bengaluru (VISTA Lab).',
+          title: 'Completed my Predoctoral Research role at IISc Bengaluru (VISTA Lab).',
           description: "",
           section: "News",},{id: "news-started-my-msc-in-artificial-intelligence-at-the-university-of-edinburgh",
           title: 'Started my MSc in Artificial Intelligence at the University of Edinburgh.',
