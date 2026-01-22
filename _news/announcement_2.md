@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Completed my predoctoral research role at IISc Bengaluru (VISTA Lab).
+Completed my Predoctoral Research role at IISc Bengaluru (VISTA Lab).
