@@ -2,96 +2,91 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Rishabh Sabharwal
+    - name: Email
+      value: R.Sabharwal@sms.ed.ac.uk
+    - name: GitHub
+      value: sabharwalrishabh
+    - name: LinkedIn
+      value: sabharwalrishabh
+    - name: Google Scholar
+      value: FGGJcEUAAAAJ
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MSc in Artificial Intelligence
+      institution: University of Edinburgh, Scotland
+      year: 2025 - 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Current student
+    - title: B.Tech. in Electronics and Communication Engineering (AI & ML)
+      institution: Netaji Subhas University of Technology, Delhi, India
+      year: 2020 - 2024
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 8.49/10 (3.68/4)"
+
+- title: Research Interests
+  type: list
+  contents:
+    - Mechanistic interpretability in large language models
+    - AI safety and robust evaluation
+    - LLM agents and tool-use (web + code)
+    - Graph neural networks and representation learning
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Pre-doctoral Researcher
+      institution: Indian Institute of Science (IISc), Bengaluru, India
+      year: Jun 2024 - Jul 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Built scalable large-scale GNN methods for fraud detection on transaction graphs (billion+ nodes) in collaboration with NPCI.
+        - Developed and evaluated spectral GNN components for efficient global context filtering.
+    - title: Research Intern
+      institution: Indian Institute of Science (IISc), Bengaluru, India
+      year: Jan 2024 - Jun 2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Proposed a network- and data-dependent constant learning rate for Adam to reduce extensive learning-rate search.
+        - Conducted empirical analysis showing faster convergence for stochastic and deterministic Adam variants (paper accepted at IEEE TAI).
+    - title: Research Intern
+      institution: Indraprastha Institute of Information Technology (IIIT-Delhi), India
+      year: May 2023 - Jul 2023
       description:
+        - Built a speech-to-text prototype for government hospital registration under code-switching (Hindi/English) and diverse dialects.
+        - Fine-tuned and benchmarked Whisper, Meta MMS, VOSK, and NeMo; added VAD to reduce long-audio hallucinations.
+        - Prototype secured Top-10 in the Bhashini Grand Innovation Challenge.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Mazumder, A., **Sabharwal, R.**, Tayal, M., Kumar, B., Garg, C., Rathore, P. On Convergence of Adam with Data Dependent Stepsize. (Accepted at IEEE Transactions on Artificial Intelligence; to appear.)"
+    - "Samarth, R.*; **Sabharwal, R.***; Rathore, P. SSGNN: Simple Yet Effective Spectral Graph Neural Network. (OpenReview.)"
+    - "**Sabharwal, R.**, Syal, S., Pankaj, P. Optimizing Stock Market Predictions: A 3-Stage Model with Residual Modelling. IEEE SPIN 2024."
+
+- title: Selected Projects
+  type: time_table
+  contents:
+    - title: FastAPI Safety Gateway
+      year: 2025
+      description:
+        - Guardrail around a vLLM-served Llama-3.1-8B-Instruct with toxicity, prompt-injection, and PII protection.
+        - Implemented an agentic safety loop with rewrites, repair prompts, tunable thresholds, and decision traceability (CLI + Streamlit).
+        - "Code: github.com/sabharwalrishabh/Safety-Guardrails-for-LLMs"
+    - title: Video Humor Reasoning (Indic-SMILE)
+      year: 2024
+      description:
+        - Built a dataset and benchmarking pipeline for culturally grounded humor reasoning in Indian video contexts.
+        - Evaluated multimodal and language models for alignment and explanation plausibility.
+    - title: Deepfake Image Detection Challenge (Omdena)
+      year: 2024
+      description:
+        - Led data and model evaluation; focused on robustness to social-media images.
+        - Ranked 3rd in the challenge; project presentation video available.
+
+- title: Skills
+  type: list
+  contents:
+    - "Languages: Python, C++, MySQL"
+    - "Frameworks: PyTorch, TensorFlow 2.0, Keras, JAX, FastAPI, Streamlit"
+    - "ML/LLM tooling: Hugging Face, vLLM, OpenAI-compatible APIs"
