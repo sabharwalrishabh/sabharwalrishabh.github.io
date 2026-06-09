@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted at IEEE Transactions on Artificial Intelligence.
+Paper accepted at IEEE Transactions on Artificial Intelligence (Q1 Journal).
