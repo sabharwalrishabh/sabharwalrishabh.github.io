@@ -35,6 +35,7 @@ latest_posts:
 I am a master's student at the University of Edinburgh, being supervised by <a href="https://scholar.google.com/citations?user=zLDAY8QAAAAJ&hl=en" target="_blank" rel="noopener">Prof. Jeff Pan</a>. 
 <!-- Previously, I was a predoctoral researcher at the Indian Institute of Science (Bengaluru), where I worked with <a href="https://www.vistalabiisc.com/P_portfolio" target="_blank" rel="noopener">Prof. Punit Rathore</a> on projects related to graph neural networks and computer vision.  -->
 For my master's thesis, I am designing a benchmark to evaluate **multimodal, multi-turn Deep Research Agents (DRAs)**, with a focus on systematically assessing agent reasoning, tool use, and information synthesis during long research tasks. 
+
 I will be attending ICML 2026 in South Korea this July to present my work, "Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback". 
 If you are attending ICML this year and want to chat, feel free to reach out via email. I am actively looking for Agentic AI and ML Engineering roles.
 
