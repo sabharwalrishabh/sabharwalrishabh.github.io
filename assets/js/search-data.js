@@ -72,11 +72,6 @@ ninja.data = [{
           description: "SFT, RLHF with process reward models, and latent-space knowledge distillation for improving mathematical reasoning in Qwen2.5-0.5B.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_post-training/";
-            },},{id: "projects-2-project",
-          title: '2_project',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
             },},{id: "projects-video-humor-reasoning-indic-smile",
           title: 'Video Humor Reasoning (Indic-SMILE)',
           description: "Dataset + benchmarking LLMs on culturally grounded Hindi humor understanding.",
@@ -87,41 +82,6 @@ ninja.data = [{
           description: "Led data + model evaluation for an open-source deepfake detection effort (Omdena); ranked 3rd.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_deepfake_detection/";
-            },},{id: "projects-3-project",
-          title: '3_project',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-4-project",
-          title: '4_project',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-5-project",
-          title: '5_project',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-6-project",
-          title: '6_project',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-7-project",
-          title: '7_project',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-8-project",
-          title: '8_project',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-9-project",
-          title: '9_project',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
