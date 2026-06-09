@@ -1,6 +1,6 @@
 ---
 layout: page
-title: courses
+title: Courses
 permalink: /courses/
 description: Coursework and topics covered during my MSc (AI) at the University of Edinburgh.
 nav: true
@@ -36,7 +36,7 @@ nav_order: 4
 - Optimization of distributed pipelines (compute, memory, communication)
 - Distributed query processing and graph processing foundations -->
 
-## Current subjects
+<!-- ## Current subjects
 - Advanced Topics in Machine Learning
 - Machine Learning Systems
-- Methods in Causal Inference
+- Methods in Causal Inference -->
