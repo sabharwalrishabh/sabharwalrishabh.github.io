@@ -57,16 +57,21 @@ ninja.data = [{
           section: "News",},{id: "news-preliminary-work-of-my-thesis-has-been-accepted-for-an-oral-presentation-top-6-at-the-scale-workshop-icml-2026",
           title: 'Preliminary work of my thesis has been accepted for an oral presentation (top-6%)...',
           description: "",
-          section: "News",},{id: "projects-fastapi-safety-gateway",
+          section: "News",},{id: "projects-multi-step-agentic-rag-system-for-multi-hop-qa",
+          title: 'Multi-Step Agentic RAG System for Multi-Hop QA',
+          description: "Decoupled agentic RAG pipeline with multi-step retrieval over 270K facts from HotpotQA.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_RAG/";
+            },},{id: "projects-fastapi-safety-gateway",
           title: 'FastAPI Safety Gateway',
           description: "Guardrails + agentic safety loop for a vLLM-served Llama-3.1-8B-Instruct.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_fastapi_safety_gateway/";
-            },},{id: "projects-1-project",
-          title: '1_project',
-          description: "",
+            },},{id: "projects-llm-post-training-on-small-scale-models",
+          title: 'LLM Post-Training on Small-Scale Models',
+          description: "SFT, RLHF with process reward models, and latent-space knowledge distillation for improving mathematical reasoning in Qwen2.5-0.5B.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/1_post-training/";
             },},{id: "projects-2-project",
           title: '2_project',
           description: "",
@@ -74,7 +79,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-video-humor-reasoning-indic-smile",
           title: 'Video Humor Reasoning (Indic-SMILE)',
-          description: "Dataset + benchmarking for culturally grounded humor reasoning in Indian video contexts.",
+          description: "Dataset + benchmarking LLMs on culturally grounded Hindi humor understanding.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_video_humor_reasoning/";
             },},{id: "projects-deepfake-image-detection-challenge",
