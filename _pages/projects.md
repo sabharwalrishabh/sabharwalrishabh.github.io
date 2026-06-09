@@ -5,7 +5,7 @@ permalink: /projects/
 description: Selected projects (systems, datasets, and competitions).
 nav: true
 nav_order: 3
-display_categories: [systems, datasets, competitions]
+display_categories: [LLMs, Datasets, Competitions]
 horizontal: false
 ---
 <!-- pages/projects.md -->
